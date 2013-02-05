@@ -39,7 +39,6 @@ the file [[file:expected-result.pdf][expected-result.pdf]].
 
 This example is licensed under a CC-license:
 
-#+BEGIN_SRC html
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.de_AT"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">koma-biber-minimal-example</span> von <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/novoid/koma-biber-minimal-example" property="cc:attributionName" rel="cc:attributionURL">Karl Voit</a> steht unter einer <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.de_AT">Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Unported Lizenz</a>.
-#+END_SRC
+
   
