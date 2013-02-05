@@ -1,0 +1,1 @@
+rm -f bibtex-minimal-example.aux bibtex-minimal-example.bbl bibtex-minimal-example.bcf bibtex-minimal-example.blg bibtex-minimal-example-blx.bib bibtex-minimal-example.log bibtex-minimal-example.run.xml references.bib

@@ -1,0 +1,47 @@
+\documentclass[12pt,a4paper,parskip=half]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage[backend=biber,style=authoryear,citestyle=authoryear]{biblatex}
+
+\addbibresource{references.bib}
+
+\usepackage{filecontents}  
+\begin{filecontents}{references.bib}
+@PhdThesis{Voit2012b,
+  author = 	 {Karl Voit},
+  title = 	 {TagTrees: Improving Personal Information Management
+                  using Associative Navigation},
+  school = 	 {Graz University of Technology},
+  address = 	 {Graz, Austria},
+  year = 	 {2012},
+  month = 	 nov
+}
+\end{filecontents}
+
+
+\begin{document}
+
+Dies hier veranschaulicht das Kompilieren und Zitieren von
+\cite{Voit2012b} mittels biblatex/biber:
+
+\verb+\cite+: \cite{Voit2012b}
+
+\verb+\textcite+: \textcite{Voit2012b}
+
+\verb+\parencite+: \parencite{Voit2012b}
+
+\verb+\footcite+: \footcite{Voit2012b}
+
+\verb+\fullcite+: \fullcite{Voit2012b}
+
+Generieren der PDF-Datei mittels:
+\begin{verbatim}
+pdflatex bibtex-minimal-example
+biber bibtex-minimal-example
+pdflatex bibtex-minimal-example
+pdflatex bibtex-minimal-example
+\end{verbatim}
+
+\printbibliography
+
+\end{document}
