@@ -1,6 +1,6 @@
 \documentclass[12pt,a4paper,parskip=half]{scrartcl}
 \usepackage[utf8]{inputenc}
-\usepackage[ngerman]{babel}
+\usepackage[american]{babel}
 \usepackage[backend=biber,style=authoryear,citestyle=authoryear]{biblatex}
 
 \addbibresource{references.bib}
@@ -21,8 +21,7 @@
 
 \begin{document}
 
-Dies hier veranschaulicht das Kompilieren und Zitieren von
-\cite{Voit2012b} mittels biblatex/biber:
+This is a minimal document to test KOMA-script with biblatex/biber:
 
 \verb+\cite+: \cite{Voit2012b}
 
@@ -34,7 +33,7 @@ Dies hier veranschaulicht das Kompilieren und Zitieren von
 
 \verb+\fullcite+: \fullcite{Voit2012b}
 
-Generieren der PDF-Datei mittels:
+Creation of the PDF-file:
 \begin{verbatim}
 pdflatex bibtex-minimal-example
 biber bibtex-minimal-example
