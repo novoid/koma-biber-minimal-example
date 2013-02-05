@@ -41,7 +41,6 @@ the file [[file:expected-result.pdf][expected-result.pdf]].
 from https://github.com/novoid/koma-biber-minimal-example is licensed
 under a 
 [[http://creativecommons.org/licenses/by-sa/3.0/][Creative
-Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0
-Unported Lizenz]]
+Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) license]].
 
   
