@@ -1,0 +1,45 @@
+
+* koma-biber-minimal-example
+
+** Purpose of this project
+
+This is a mininal [[http://en.wikipedia.org/wiki/LaTeX][LaTeX]] document testing [[http://www.komascript.de/][KOMA Script]] class with [[http://biblatex-biber.sourceforge.net/][biber]].
+
+
+** Requirements
+
+This example uses up-to-date technology like pdflatex, [[http://www.tex.ac.uk/tex-archive/info/translations/biblatex/de/][biblatex]]
+(instead of BibTeX-Format), and [[http://en.wikipedia.org/wiki/Biber_(LaTeX)][biber]] (instead of
+bibtex-compiler). You should be familiar with compiling LaTeX
+documents by yourself. If you are new to LaTeX please get basic
+knowledge from tutorial pages such as [[http://LaTeX.TUGraz.at][this one]].
+
+** Why?
+
+Unfortunately, biber is not that popular yet. This leads to software
+version incompatibilities I faced multiple times with [[http://miktex.org/][MiKTeX]] or
+MiKTeX portable.
+
+To test these software packages, I use this minimal example here with:
+
+#+begin_src sh
+pdflatex bibtex-minimal-example
+biber bibtex-minimal-example
+pdflatex bibtex-minimal-example
+pdflatex bibtex-minimal-example
+#+end_src
+
+If the software is working properly, you should get
+[[file:bibtex-minimal-example.pdf][bibtex-minimal-example.pdf]] with correct citations. In order to
+compare this PDF result to the way is should look like, I have added
+the file [[file:expected-result.pdf][expected-result.pdf]].
+
+
+** license
+
+This example is licensed under a CC-license:
+
+#+BEGIN_SRC html
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.de_AT"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">koma-biber-minimal-example</span> von <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/novoid/koma-biber-minimal-example" property="cc:attributionName" rel="cc:attributionURL">Karl Voit</a> steht unter einer <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.de_AT">Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Unported Lizenz</a>.
+#+END_SRC
+  
